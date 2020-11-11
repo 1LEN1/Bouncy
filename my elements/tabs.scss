@@ -1,0 +1,21 @@
+.tabs {
+	// .tabs__items
+	&__items {
+	}
+	// .tabs__item
+	&__item {
+	}
+	// стили вкладок
+	&__item.active {
+	}
+	// .tabs__content
+	&__content {
+	}
+	// .tabs__pane
+	&__pane {
+		display: none;
+	}
+	&__pane.active {
+		display: block;
+	}
+}
